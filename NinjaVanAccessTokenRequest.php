@@ -20,7 +20,9 @@
 $client_id = "YOUR_CLIENT_ID";
 $client_secret = "YOUR_CLIENT_SECRET";
 
-$token_url = "https://api.ninjavan.co/my/2.0/oauth/access_token";
+$country_code = "YOUR_COUNTRY_CODE"; // your country code
+
+$token_url = "https://api.ninjavan.co/".$country_code."/2.0/oauth/access_token";
 
 //---------------------------------------------------------------------
 

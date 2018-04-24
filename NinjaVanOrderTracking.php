@@ -21,8 +21,8 @@ include "NinjaVanAccessTokenRequest.php"; // to make sure token is always refres
   | and endpoint_url if you use production client_id and client_secret
 */
 
-$endpoint_url_sandbox = "https://api-sandbox.ninjavan.co/SG/3.0/orders"; 
-$endpoint_url_production = "https://api.ninjavan.co/my/3.0/orders";
+$endpoint_url_sandbox = "https://api-sandbox.ninjavan.co/".$country_code."/3.0/orders"; 
+$endpoint_url_production = "https://api.ninjavan.co/".$country_code."/3.0/orders";
 
 //--------------------------------------------------------------------------------------------------
 

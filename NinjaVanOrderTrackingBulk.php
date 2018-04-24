@@ -22,8 +22,8 @@ include "NinjaVanAccessTokenRequest.php"; // to make sure token is always refres
 	| and endpoint_url if you use production client_id and client_secret
 */
 
-$endpoint_url_production = "https://api.ninjavan.co/my/2.0/track";
-$endpoint_url_sandbox = "https://api-sandbox.ninjavan.co/my/2.0/track";
+$endpoint_url_production = "https://api.ninjavan.co/".$country_code."/2.0/track";
+$endpoint_url_sandbox = "https://api-sandbox.ninjavan.co/".$country_code."/2.0/track";
 
 $array_data = $_GET['tracking_id']; // via HTTP GET request
 
